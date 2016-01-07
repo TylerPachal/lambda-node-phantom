@@ -11,7 +11,8 @@ exports.handler = function(event, context) {
 
 	// Arguments for the phantom script
 	var processArgs = [
-		path.join(__dirname, 'phantom-script.js')
+		path.join(__dirname, 'phantom-script.js'),
+		'my arg'
 	];
 	
 	// Launc the child process
