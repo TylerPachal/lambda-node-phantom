@@ -1,7 +1,16 @@
+UPDATE
+===
+
+I have been told that this no longer works!  I no longer use AWS/Lambda so for now the best I can do is link to an [alternate solution](https://stackoverflow.com/a/56843029/2282538).  
+
+PRs are welcome to get this working again.
+
+
+
 lambda-node-phantom
 ===
 
-A simple working example of running PhantomJS on AWS Lambda via NodeJS
+A simple ~working~ example of running PhantomJS on AWS Lambda via NodeJS
 ---
 
 This repository contains a complete, working example of running a simple PhantomJS script on AWS Lambda through a NodeJS child process.
